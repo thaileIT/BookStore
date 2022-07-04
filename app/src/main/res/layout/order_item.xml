@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/searchbg"
+    android:layout_marginTop="5dp">
+
+    <TextView
+            android:id="@+id/txtBO_Price"
+            android:layout_width="55dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/comicbd"
+            android:text="$6.05"
+            app:layout_constraintEnd_toEndOf="@+id/imgBO_img"
+
+            app:layout_constraintHorizontal_bias="0.586"
+            app:layout_constraintStart_toStartOf="@+id/imgBO_img"
+            app:layout_constraintTop_toBottomOf="@+id/imgBO_img" />
+
+        <ImageView
+            android:id="@+id/imgBO_img"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtBO_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comicbd"
+            android:text="Chuyện nhỏ trong thế giới lớn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.207"
+            app:layout_constraintStart_toEndOf="@+id/imgBO_img"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtOrderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/searchbg"
+            android:fontFamily="@font/comici"
+            android:padding="5dp"
+            android:text="Order At"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/imgBO_img"
+            app:layout_constraintTop_toBottomOf="@+id/txtBO_name" />
+
+        <TextView
+            android:id="@+id/txtDeliveryDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:layout_marginLeft="92dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/searchbg"
+            android:fontFamily="@font/comici"
+            android:padding="5dp"
+            android:text="Delivery At"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/txtOrderDate"
+            app:layout_constraintTop_toBottomOf="@+id/txtBO_name" />
+
+        <TextView
+            android:id="@+id/txtOrderDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="15/6/2022"
+            android:fontFamily="@font/comicbd"
+            app:layout_constraintEnd_toEndOf="@+id/txtOrderDate"
+            app:layout_constraintStart_toStartOf="@+id/txtOrderDate"
+            app:layout_constraintTop_toBottomOf="@+id/txtOrderDate" />
+
+        <TextView
+            android:id="@+id/txtDeliveryDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="30/6/2022"
+            android:fontFamily="@font/comicbd"
+            app:layout_constraintEnd_toEndOf="@+id/txtDeliveryDate"
+            app:layout_constraintStart_toStartOf="@+id/txtDeliveryDate"
+            app:layout_constraintTop_toBottomOf="@+id/txtDeliveryDate" />
+
+        <TextView
+            android:id="@+id/txtAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/comic"
+            android:text="Amount: "
+            app:layout_constraintBottom_toBottomOf="@id/imageView3"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/txtNumberOrdered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/comic"
+            android:text="5"
+            app:layout_constraintBottom_toBottomOf="@+id/txtAmount"
+            app:layout_constraintStart_toEndOf="@+id/txtAmount"
+            app:layout_constraintTop_toTopOf="@+id/txtAmount"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="216dp"
+            android:layout_marginLeft="216dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtOrderDay"
+            app:srcCompat="@drawable/arrow_right" />
+
+        <TextView
+            android:id="@+id/txtSum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:text="Price: "
+            android:fontFamily="@font/comic"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.8" />
+
+        <TextView
+            android:id="@+id/txtPrice_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/comicbd"
+            android:text="$18.15"
+            app:layout_constraintBottom_toBottomOf="@+id/txtSum"
+            app:layout_constraintStart_toEndOf="@+id/txtSum"
+            app:layout_constraintTop_toTopOf="@+id/txtSum"
+            app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imgStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/check_circle" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOrder"
+        android:layout_width="27dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

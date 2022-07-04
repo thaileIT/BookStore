@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BooksOwl</string>
+    <string name="bn1">Chúa ruồi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="FAQ">FAQ</string>
+    <string name="my_orders">My Orders</string>
+    <string name="my_wishlist">My Wishlist</string>
+
+</resources>

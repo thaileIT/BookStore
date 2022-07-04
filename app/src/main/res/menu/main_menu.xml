@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="My account">
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:title="My home"
+                    android:icon="@drawable/home"/>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="My profile"
+                    android:icon="@drawable/person"/>
+                <item
+                    android:id="@+id/nav_orders"
+                    android:title="My orders"
+                    android:icon="@drawable/cart"/>
+                <item
+                    android:id="@+id/nav_wishlist"
+                    android:title="My WishList"
+                    android:icon="@drawable/heart"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Support">
+            <menu>
+                <item
+                    android:id="@+id/nav_FAQ"
+                    android:title="FAQ"
+                    android:icon="@drawable/faq"/>
+                <item
+                    android:id="@+id/nav_Email"
+                    android:title="Email"
+                    android:icon="@drawable/email"/>
+                <item
+                    android:id="@+id/nav_Call"
+                    android:title="Call"
+                    android:icon="@drawable/headset"/>
+                <item
+                    android:id="@+id/nav_Contact"
+                    android:title="Contact Us"
+                    android:icon="@drawable/contact"/>
+                <item
+                    android:id="@+id/nav_Admin_2"
+                    android:title="Add category"
+                    android:icon="@drawable/update"/>
+                <item
+                    android:id="@+id/nav_Admin"
+                    android:title="Add book"
+                    android:icon="@drawable/update"/>
+                <item
+                    android:id="@+id/nav_Logout"
+                    android:title="Log out"
+                    android:icon="@drawable/log_out"/>
+
+            </menu>
+        </item>
+    </group>
+</menu>
