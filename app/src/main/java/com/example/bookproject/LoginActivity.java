@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
     ExampleBroadcastReceiver exampleBroadcastReceiver = new ExampleBroadcastReceiver();
     TextView txtSignIn,txtForgotPassword,txtOthers;
     MaterialButton btnLogin,btnSignUp;
-    EditText txtUsername,txtHaha;
+    EditText txtUsername;
     ProgressBar progressBarLogin;
     TextInputEditText txtPassword;
     FirebaseAuth mAuth;
